@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Shield Glow / Outline -->
+    <path
+        android:pathData="M54,23 L76,31 C76,53 66,69 54,77 C42,69 32,53 32,31 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E5FF"
+        android:strokeLineJoin="round"
+        android:fillColor="#1A00E5FF" />
+
+    <!-- Inner Shield Body -->
+    <path
+        android:pathData="M54,26 L73,33 C73,51 64,65 54,73 C44,65 35,51 35,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:startColor="#0052D4"
+                android:endColor="#4364F7"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Padlock Shackle -->
+    <path
+        android:pathData="M48,46 L48,42 C48,38.7 50.7,36 54,36 C57.3,36 60,38.7 60,42 L60,46"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Padlock Body -->
+    <path
+        android:pathData="M45,46 L63,46 C64.1,46 65,46.9 65,48 L65,58 C65,59.1 64.1,60 63,60 L45,60 C43.9,60 43,59.1 43,58 L43,48 C43,46.9 43.9,46 45,46 Z"
+        android:fillColor="#00F0FF" />
+
+    <!-- Keyhole -->
+    <path
+        android:pathData="M54,50 A2,2 0 1,0 54,54 L54,56"
+        android:strokeWidth="1.8"
+        android:strokeColor="#051026"
+        android:strokeLineCap="round"
+        android:fillColor="#051026" />
+
+    <!-- Circuit Accents -->
+    <path
+        android:pathData="M37,42 L30,42 M71,42 L78,42 M54,73 L54,80 M42,67 L36,73 M66,67 L72,73"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M30,42 A1.5,1.5 0 1,0 30,41.9 M78,42 A1.5,1.5 0 1,0 78,41.9 M54,80 A1.5,1.5 0 1,0 54,79.9 M36,73 A1.5,1.5 0 1,0 36,72.9 M72,73 A1.5,1.5 0 1,0 72,72.9"
+        android:fillColor="#00E5FF" />
+</vector>
